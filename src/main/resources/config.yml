@@ -22,16 +22,16 @@ rockets:
   
   # Messages while rocket is launching. Must have at least 4
   launch-msgs: 
-    - Forgetting parachutes
-    - Restocking snack bin
-    - Aligning planets
-    - Igniting sun
-    - Inventing funny launch messages
-    - Thanking TheBusyBiscuit
-    - Faking Moon landings
-    - Taking one small step
-    - Going Boomer
-    - Not going home
+    - Забываем парашюты
+    - Пополняем запасы ящика для закусок
+    - Выравниваем планеты
+    - Зажигаем солнце
+    - Придумываем забавные сообщения о запуске
+    - Благодарим TheBusyBiscuit
+    - Подделываем высадку на Луну
+    - Делаем маленький шажок
+    - Становимся Бумером
+    - Прощаемся с домом
 
 other:
   # The range that the automatic door checks for players
