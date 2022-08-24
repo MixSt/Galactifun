@@ -17,7 +17,7 @@ import io.github.mooy1.infinitylib.commands.SubCommand;
 public final class EffectsCommand extends SubCommand {
 
     public EffectsCommand() {
-        super("effects", "Gets all the effects of the current block (taking in protections)", false);
+        super("effects", "Получает все эффекты текущего блока (с учетом защиты)", false);
     }
 
     @Override
@@ -26,12 +26,12 @@ public final class EffectsCommand extends SubCommand {
 
         PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
         if (world == null) {
-            p.sendMessage(ChatColor.RED + "You must be in a Galactifun world to execute this command");
+            p.sendMessage(ChatColor.RED + "Вы должны находиться на одной из планет, чтобы выполнить эту команду");
             return;
         }
 
         for (Map.Entry<AtmosphericEffect, Integer> entry : Galactifun.protectionManager().getEffectsAt(p.getLocation()).entrySet()) {
-            p.sendMessage(ChatColor.YELLOW + String.format("Effect: %s, Level: %d",
+            p.sendMessage(ChatColor.YELLOW + String.format("Эффект: %s, Уровень: %d",
                     entry.getKey().toString(),
                     entry.getValue()
             ));
