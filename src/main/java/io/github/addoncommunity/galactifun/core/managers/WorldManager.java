@@ -121,7 +121,7 @@ public final class WorldManager implements Listener {
 
     public void register(PlanetaryWorld world) {
         if (this.spaceWorlds.containsKey(world.world())) {
-            throw new IllegalArgumentException("Alien World " + world.id() + " is already registered!");
+            throw new IllegalArgumentException("Инопланетный мир " + world.id() + " уже зарегистрирован!");
         }
         this.spaceWorlds.put(world.world(), world);
         if (world instanceof AlienWorld alienWorld) {
@@ -148,7 +148,7 @@ public final class WorldManager implements Listener {
                         && world.atmosphere().requiresOxygenTank()
                         && !Galactifun.protectionManager().isOxygenBlock(p.getLocation())
                         && !SpaceSuitProfile.get(p).consumeOxygen(20)) {
-                    p.sendMessage(ChatColor.RED + "You have run out of oxygen!");
+                    p.sendMessage(ChatColor.RED + "У вас кончился кислород!");
                     p.damage(8);
                 }
             }
