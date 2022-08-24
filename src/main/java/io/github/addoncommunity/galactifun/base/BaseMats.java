@@ -38,234 +38,234 @@ public final class BaseMats {
     public static final SlimefunItemStack MOON_DUST = new SlimefunItemStack(
             "MOON_DUST",
             Material.LIGHT_GRAY_CONCRETE_POWDER,
-            "&7Moon Dust"
+            "&7Лунная пыль"
     );
     public static final SlimefunItemStack MOON_ROCK = new SlimefunItemStack(
             "MOON_ROCK",
             Material.ANDESITE,
-            "&7Moon Rock"
+            "&7Лунный камень"
     );
     public static final SlimefunItemStack MARS_DUST = new SlimefunItemStack(
             "MARS_DUST",
             Material.RED_SAND,
-            "&cMars Dust"
+            "&cМарсианская пыль"
     );
     public static final SlimefunItemStack MARS_ROCK = new SlimefunItemStack(
             "MARS_ROCK",
             Material.TERRACOTTA,
-            "&cMars Rock"
+            "&cМарсианский камень"
     );
     public static final SlimefunItemStack DRY_ICE = new SlimefunItemStack(
             "DRY_ICE",
             Material.PACKED_ICE,
-            "&bDry Ice"
+            "&bСухой Лед"
     );
     public static final SlimefunItemStack METHANE_ICE = new SlimefunItemStack(
             "METHANE_ICE",
             Material.BLUE_ICE,
-            "&bMethane Ice"
+            "&bЗамерзший метан"
     );
     public static final SlimefunItemStack SULFUR_BLOCK = new SlimefunItemStack(
             "SULFUR_BLOCK",
             Material.YELLOW_TERRACOTTA,
-            "&6Sulfur Block"
+            "&6Блок Серы"
     );
     public static final SlimefunItemStack VENTSTONE = new SlimefunItemStack(
             "VENTSTONE",
             Material.MAGMA_BLOCK,
-            "&6Ventstone"
+            "&6Вентстоун"
     );
     public static final SlimefunItemStack LASERITE_ORE = new SlimefunItemStack(
             "LASERITE_ORE",
             Material.REDSTONE_ORE,
-            "&cLaserite Ore"
+            "&cЛазеритовая руда"
     );
     //</editor-fold>
     //<editor-fold desc="Ultra Duty" defaultstate="collapsed">
     public static final SlimefunItemStack ALUMINUM_COMPOSITE = new SlimefunItemStack(
             "ALUMINUM_COMPOSITE",
             Material.IRON_INGOT,
-            "&fAluminum Composite",
+            "&fАлюминиевый композит",
             "",
-            "&7You'll never guess how long it took us",
-            "&7to name this material"
+            "&7Вы никогда не догадаетесь, сколько времени нам потребовалось,",
+            "&7чтобы придумать название этому материалу"
     );
     public static final SlimefunItemStack TUNGSTEN_INGOT = new SlimefunItemStack(
             "TUNGSTEN_INGOT",
             Material.NETHERITE_INGOT,
-            "&bTungsten Ingot",
+            "&bСлиток Вольфрама",
             "",
-            "&7A strong metal obtained either from",
-            "&7giving Martians reinforced plates or",
-            "&7from smelting fallen meteors"
+            "&7Прочный металл, полученный либо при",
+            "&7изготовлении марсианами армированных пластин,",
+            "&7либо при выплавке упавших метеоритов"
     );
     public static final SlimefunItemStack ALUMINUM_COMPOSITE_SHEET = new SlimefunItemStack(
             "ALUMINUM_COMPOSITE_SHEET",
             Material.PAPER,
-            "&fAluminum Composite Sheet"
+            "&fАлюминиевый Композитный Лист"
     );
     public static final SlimefunItemStack HEAVY_DUTY_SHEET = new SlimefunItemStack(
             "HEAVY_DUTY_SHEET",
             Material.PAPER,
-            "&fHeavy Duty Sheet"
+            "&fСуперпрочный Лист"
     );
     public static final SlimefunItemStack SPACE_GRADE_PLATE = new SlimefunItemStack(
             "SPACE_GRADE_PLATE",
             Material.PAPER,
-            "&fSpace Grade Plate"
+            "&fПлита Космического Класса"
     );
     public static final SlimefunItemStack ULTRA_DUTY_SHEET = new SlimefunItemStack(
             "ULTRA_DUTY_SHEET",
             Material.PAPER,
-            "&fUltra Duty Sheet"
+            "&fСверхпрочный Лист"
     );
     //</editor-fold>
     //<editor-fold desc="Rocket Stuff" defaultstate="collapsed">
     public static final SlimefunItemStack GOLD_FOIL = new SlimefunItemStack(
             "GOLD_FOIL",
             Material.PAPER,
-            "&6Gold Foil"
+            "&6Золотая фольга"
     );
     public static final SlimefunItemStack REINFORCED_CHANNEL = new SlimefunItemStack(
             "REINFORCED_CHANNEL",
             Material.BAMBOO,
-            "&fReinforced Channel"
+            "&fУсиленный Канал"
     );
     public static final SlimefunItemStack FAN_BLADE = new SlimefunItemStack(
             "FAN_BLADE",
             GalactifunHead.FAN,
-            "&fFan Blade"
+            "&fЛопасть вентилятора"
     );
     public static final SlimefunItemStack NOZZLE = new SlimefunItemStack(
             "NOZZLE",
             Material.IRON_TRAPDOOR,
-            "&fNozzle"
+            "&fСопло"
     );
     public static final SlimefunItemStack FILTER = new SlimefunItemStack(
             "AIR_FILTER",
             Material.PAPER,
-            "&fFilter"
+            "&fФильтр"
     );
     public static final SlimefunItemStack OXYGEN_REGENERATOR = new SlimefunItemStack(
             "OXYGEN_REGENERATOR",
             GalactifunHead.OXYGEN_REGENERATOR,
-            "&bOxygen Regenerator"
+            "&bРегенератор кислорода"
     );
     public static final SlimefunItemStack SPARK_PLUG = new SlimefunItemStack(
             "SPARK_PLUG",
             Material.FLINT_AND_STEEL,
-            "&fSpark Plug"
+            "&fСвеча Зажигания"
     );
     public static final SlimefunItemStack SPARK_PLUG_2 = new SlimefunItemStack(
             "SPARK_PLUG_2",
             Material.FLINT_AND_STEEL,
-            "&fSpark Plug Mk 2"
+            "&fСвеча Зажигания Mk 2"
     );
     public static final SlimefunItemStack ROCKET_ENGINE = new SlimefunItemStack(
             "ROCKET_ENGINE",
             Material.FLINT_AND_STEEL,
-            "&fRocket Engine"
+            "&fРакетный Двигатель"
     );
     public static final SlimefunItemStack ROCKET_ENGINE_2 = new SlimefunItemStack(
             "ROCKET_ENGINE_2",
             Material.FLINT_AND_STEEL,
-            "&fRocket Engine Mk 2"
+            "&fРакетный Двигатель Mk 2"
     );
     public static final SlimefunItemStack ROCKET_ENGINE_3 = new SlimefunItemStack(
             "ROCKET_ENGINE_3",
             Material.FLINT_AND_STEEL,
-            "&fRocket Engine Mk 3"
+            "&fРакетный Двигатель Mk 3"
     );
     public static final SlimefunItemStack ION_ENGINE = new SlimefunItemStack(
             "ION_ENGINE",
             Material.FLINT_AND_STEEL,
-            "&bIon Engine"
+            "&bИонный Двигатель"
     );
     public static final SlimefunItemStack ADVANCED_PROCESSING_UNIT = new SlimefunItemStack(
             "ADVANCED_PROCESSING_UNIT",
             GalactifunHead.CORE,
-            "&4Advanced Processing Unit"
+            "&4Усовершенствованный Блок Обработки"
     );
     public static final SlimefunItemStack LIFE_SUPPORT_MODULE = new SlimefunItemStack(
             "LIFE_SUPPORT_MODULE",
             GalactifunHead.LIFE_SUPPORT_MODULE,
-            "&4Life Support Module"
+            "&4Модуль Жизнеобеспечения"
     );
     public static final SlimefunItemStack NOSE_CONE = new SlimefunItemStack(
             "NOSE_CONE",
             Material.REDSTONE_TORCH,
-            "&fNose Cone"
+            "&fНосовой Конус"
     );
     public static final SlimefunItemStack FUEL_TANK = new SlimefunItemStack(
             "FUEL_TANK",
             GalactifunHead.CAN,
-            "&6Fuel Tank"
+            "&6Топливный Бак"
     );
     public static final SlimefunItemStack FUEL_TANK_2 = new SlimefunItemStack(
             "FUEL_TANK_2",
             GalactifunHead.CAN,
-            "&6Fuel Tank Mk 2"
+            "&6Топливный Бак Mk 2"
     );
     public static final SlimefunItemStack DIAMOND_CIRCUIT = new SlimefunItemStack(
             "DIAMOND_CIRCUIT",
             Material.POWERED_RAIL,
-            "&7Diamond Circuit"
+            "&7Алмазная Микросхема"
     );
     public static final SlimefunItemStack REDSTONE_CIRCUIT = new SlimefunItemStack(
             "REDSTONE_CIRCUIT",
             Material.POWERED_RAIL,
-            "&7Redstone Circuit"
+            "&7Микросхема из Редстоуна"
     );
     public static final SlimefunItemStack LAPIS_CIRCUIT = new SlimefunItemStack(
             "LAPIS_CIRCUIT",
             Material.POWERED_RAIL,
-            "&7Lapis Circuit"
+            "&7Микросхема из Лазурита"
     );
     public static final SlimefunItemStack GLOWSTONE_CIRCUIT = new SlimefunItemStack(
             "GLOWSTONE_CIRCUIT",
             Material.POWERED_RAIL,
-            "&7Glowstone Circuit"
+            "&7Микросхема из Светокамня"
     );
     //</editor-fold>
     //<editor-fold desc="Misc" defaultstate="collapsed">
     public static final SlimefunItemStack MUNPOWDER = new SlimefunItemStack(
             "MUNPOWDER",
             Material.GUNPOWDER,
-            "&7Munpowder",
+            "&7Лунрох",
             "",
-            "&7The gunpowder of the moon"
+            "&7Порох с луны"
     );
     public static final SlimefunItemStack FALLEN_METEOR = new SlimefunItemStack(
             "FALLEN_METEOR",
             Material.ANCIENT_DEBRIS,
-            "&4Fallen Meteor",
+            "&4Упавший Метеорит",
             "",
-            "&7These meteors contain Tungsten"
+            "&7Эти метеориты содержат вольфрам"
     );
     public static final SlimefunItemStack MOON_CHEESE = new SlimefunItemStack(
             "MOON_CHEESE",
             GalactifunHead.CHEESE,
-            "&6Moon Cheese",
+            "&6Лунный Сыр",
             "",
-            "&7Ew"
+            "&7Фу"
     );
     public static final SlimefunItemStack ENDER_BLOCK = new SlimefunItemStack(
             "ENDER_BLOCK",
             Material.PRISMARINE_BRICKS,
-            "&3Ender Block"
+            "&3Блок Эндера"
     );
     public static final SlimefunItemStack LUNAR_GLASS = new SlimefunItemStack(
             "LUNAR_GLASS",
             Material.GLASS,
-            "&fLunar Glass",
+            "&fЛунное Стекло",
             "",
-            "&7For some reason adding moon dust to",
-            "&7glass makes it clearer..."
+            "&7По какой-то причине добавление лунной пыли",
+            "&7к стеклу делает его более прозрачным..."
     );
     public static final SlimefunItemStack VOLCANIC_INGOT = new SlimefunItemStack(
             "VOLCANIC_INGOT",
             Material.GOLD_INGOT,
-            "&4Volcanic Ingot",
+            "&4Вулканический Слиток",
             "",
             "&7Forged in the depths of the closest",
             "&7thing we know to Hell, Volcanic Ingots",
