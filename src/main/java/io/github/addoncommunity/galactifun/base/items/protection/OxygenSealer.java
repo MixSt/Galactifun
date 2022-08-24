@@ -138,13 +138,13 @@ public final class OxygenSealer extends MenuBlock implements EnergyNetComponent,
         Block b = pos.getBlock();
 
         if (!BSUtils.getStoredBoolean(l, PROTECTING)) {
-            updateHologram(b, "&cNot Enough Energy");
+            updateHologram(b, "&cНедостаточно энергии");
             return;
         }
 
         BlockMenu menu = BlockStorage.getInventory(b);
         if (!SlimefunUtils.isItemSimilar(menu.getItemInSlot(OXYGEN_SLOT), Gas.OXYGEN.item(), false, false)) {
-            updateHologram(b, "&cNo Oxygen");
+            updateHologram(b, "&cНет кислорода");
             BSUtils.addBlockInfo(b, NO_OXYGEN, true);
             return;
         }
@@ -165,7 +165,7 @@ public final class OxygenSealer extends MenuBlock implements EnergyNetComponent,
         Optional<Set<BlockPosition>> returned = Util.floodFill(l, range);
         // not sealed; continue on to the next block
         if (returned.isEmpty()) {
-            updateHologram(b, "&cArea Not Sealed or Too Big");
+            updateHologram(b, "&cОбласть не герметична или слишком велика");
             return;
         }
 
@@ -174,7 +174,7 @@ public final class OxygenSealer extends MenuBlock implements EnergyNetComponent,
             Galactifun.protectionManager().addOxygenBlock(bp);
         }
 
-        updateHologram(b, "&aOperational");
+        updateHologram(b, "&aРаботает");
     }
 
 }
