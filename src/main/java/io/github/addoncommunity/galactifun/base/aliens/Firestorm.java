@@ -58,8 +58,8 @@ public final class Firestorm extends Alien<Blaze> implements Listener {
         if (msg == null) return;
 
         String s = PlainTextComponentSerializer.plainText().serialize(msg);
-        if (s.endsWith(" was struck by lightning whilst fighting Firestorm")) {
-            e.deathMessage(Component.text(e.getEntity().getName() + " was electrocuted by Firestorm"));
+        if (s.endsWith(" был поражен молнией во время битвы с Огненным Штормом")) {
+            e.deathMessage(Component.text(e.getEntity().getName() + " был убит электрическим током из Огненного Шторма"));
         }
     }
 
