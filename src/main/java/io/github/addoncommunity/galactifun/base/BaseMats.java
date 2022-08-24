@@ -267,44 +267,44 @@ public final class BaseMats {
             Material.GOLD_INGOT,
             "&4Вулканический Слиток",
             "",
-            "&7Forged in the depths of the closest",
-            "&7thing we know to Hell, Volcanic Ingots",
-            "&7are a valuable commodity"
+            "&7Вулканические слитки, выкованные в глубинах",
+            "&7самого близкого к Аду места, которое нам известно.",
+            "&7Являются ценным товаром."
     );
     public static final SlimefunItemStack BLISTERING_VOLCANIC_INGOT = new SlimefunItemStack(
             "BLISTERING_VOLCANIC_INGOT",
             Material.GOLD_INGOT,
-            "&6Blistering Volcanic Ingot"
+            "&6Пузырящийся Вулканический Слиток"
     );
     public static final SlimefunItemStack TUNGSTEN_CARBIDE = new SlimefunItemStack(
             "TUNGSTEN_CARBIDE",
             Material.IRON_INGOT,
-            "&7Tungsten Carbide"
+            "&7Карбид Вольфрама"
     );
     public static final SlimefunItemStack DIAMOND_ANVIL_CELL = new SlimefunItemStack(
             "DIAMOND_ANVIL_CELL",
             Material.DIAMOND,
-            "&bDiamond Anvil Cell"
+            "&bЯчейка Алмазной Наковальни"
     );
     public static final SlimefunItemStack FUSION_PELLET = new SlimefunItemStack(
             "FUSION_PELLET",
             Material.STONE_BUTTON,
-            "&fFusion Pellet"
+            "&fТермоядерная Крошка"
     );
     public static final SlimefunItemStack LASERITE_DUST = new SlimefunItemStack(
             "LASERITE_DUST",
             Material.REDSTONE,
-            "&cLaserite Dust",
+            "&cЛазеритовая пыль",
             "",
-            "&7I'm running out of names",
+            "&7Имена кончились",
             Bukkit.getPluginManager().isPluginEnabled("SlimefunWarfare") ?
-                    "&7Can be replaced by Laser Diode from Slimefun Warfare" :
+                    "&7Может быть замещено Лазерным диодом из Slimefun Warfare" :
                     ""
     );
     public static final SlimefunItemStack LASERITE = new SlimefunItemStack(
             "LASERITE",
             Material.RED_DYE,
-            "&cLaserite"
+            "&cЛазерит"
     );
     //</editor-fold>
 
