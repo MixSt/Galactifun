@@ -25,7 +25,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 public final class GalactiportCommand extends SubCommand {
 
     public GalactiportCommand() {
-        super("world", "Teleports you to the spawn of the specified world", true);
+        super("world", "Телепортирует вас на спавн указанного мира", true);
     }
 
     @Override
