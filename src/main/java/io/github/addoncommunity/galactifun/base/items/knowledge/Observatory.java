@@ -28,12 +28,12 @@ public final class Observatory extends MultiBlockMachine {
 
         PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
         if (world == null) {
-            p.sendMessage(ChatColor.RED + "You must be on a planet to use this!");
+            p.sendMessage(ChatColor.RED + "Вы должны быть на планете, чтобы использовать это!");
             return;
         }
 
         if (PersistentDataAPI.getBoolean(world.worldStorage(), key)) {
-            p.sendMessage(ChatColor.RED + "Already observing!");
+            p.sendMessage(ChatColor.RED + "Уже наблюдаю!");
             return;
         }
 
@@ -44,7 +44,7 @@ public final class Observatory extends MultiBlockMachine {
             }
             return true;
         }, (pl, w) -> {
-            pl.sendMessage(ChatColor.GREEN + "Observing planet " + w.name());
+            pl.sendMessage(ChatColor.GREEN + "Наблюдение за планетой " + w.name());
             PersistentDataAPI.setBoolean(world.worldStorage(), key, true);
             Scheduler.run(30 * 60 * 20, () -> {
                 PersistentDataAPI.setBoolean(world.worldStorage(), key, false);
